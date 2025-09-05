@@ -1,0 +1,84 @@
+[
+  {
+    "id": 7612,
+    "title": [
+      "BOND PINK SWIFT GEREMI_OUT",
+      "QA.CYP/CYPPI.SWIFT_GEREMI_OUT",
+      "QMDCALYP"
+    ],
+    "destination": [
+      "APEX-BONDS INT1 TO APEX_SDI",
+      "QA.CYP/INT1_TO_APEX_SDI",
+      "QMDCALYP"
+    ],
+    "enabled": true,
+    "checkbox_action": "enableFlow/7612",
+    "status": "disabled",
+    "note": "",
+    "flag": "-",
+    "show_url": "showFlowDetail/7612",
+    "delete_url": "deleteFlow/7612"
+  },
+  {
+    "id": 10175,
+    "title": [
+      "BOND PINK SWIFT GEREMI_OUT",
+      "QA.CYP/CYPPI.SWIFT_GEREMI_OUT",
+      "QMDCALYP"
+    ],
+    "destination": [
+      "BONDS PRE SWIFT GEREMI OUT",
+      "QA.CYP/CYPPP.SWIFT_GEREMI_OUT",
+      "QMICLYP"
+    ],
+    "enabled": true,
+    "checkbox_action": "enableFlow/10175",
+    "status": "disabled",
+    "note": "",
+    "flag": "-",
+    "show_url": "showFlowDetail/10175",
+    "delete_url": "deleteFlow/10175"
+  },
+  {
+    "id": 10560,
+    "title": [
+      "BOND PRE FLEX OUT",
+      "QA.CYP/TO_FLX_MSG",
+      "QMICLYP"
+    ],
+    "destination": [
+      "BONDS FLEX QUALIF OUT",
+      "QA.CYP/TO_FLX_MSG_ENVFLXQUAL",
+      "QMICLYP"
+    ],
+    "enabled": false,
+    "checkbox_action": "disableFlow/10560",
+    "status": "online",
+    "note": "",
+    "flag": "-",
+    "show_url": "showFlowDetail/10560",
+    "delete_url": "deleteFlow/10560"
+  },
+  {
+    "id": 10170,
+    "title": [
+      "BOND SUPPORT MMSR",
+      "QA.CYP/CYPSU.TO_EFIRA_REG_EOD",
+      "QMDCALYP"
+    ],
+    "destination": [
+      "BONDS QUALIF TO_EFIRA_REG_EOD",
+      "QA.CYP/QUAL_TO_EFIRA_REG_EOD",
+      "QMICLYP"
+    ],
+    "enabled": false,
+    "checkbox_action": "disableFlow/10170",
+    "status": "online",
+    "note": "",
+    "flag": "-",
+    "show_url": "showFlowDetail/10170",
+    "delete_url": "deleteFlow/10170"
+  }
+]
+
+
